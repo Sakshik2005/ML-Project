@@ -1,0 +1,64 @@
+
+
+
+<html>
+	<head> 
+		<title>Ml Project</title>
+		<link  rel="stylesheet"    href="{{ url_for('static', filename='style.css')  }}">	
+
+	</head>
+
+
+
+
+
+
+<form action="/pred" method="post"> 
+    <input type="text" name="v1" id="Gender"  placeholder="Gender" > <br> <br>
+
+    <input type="text" name="v2" id="SeniorCitizen"  placeholder="SeniorCitizen" > <br> <br>
+
+    <input type="text" name="v3" id="Partner"  placeholder="Partner" > <br> <br>
+
+    <input type="text" name="v4" id="Dependents"  placeholder="Dependents" > <br> <br>
+
+    <input type="text" name="v5" id=" tenure"  placeholder="tenure" > <br> <br>
+
+    <input type="text" name="v6" id="PhoneService"  placeholder="PhoneService" > <br> <br>
+
+    <input type="text" name="v7" id="MultipleLines"  placeholder="MultipleLines" > <br> <br>
+
+    <input type="text" name="v8" id="InternetService"  placeholder="InternetService" > <br> <br>
+
+    <input type="text" name="v9" id="OnlineSecurity"  placeholder="OnlineSecurity" > <br> <br>
+
+    <input type="text" name="v10" id="OnlineBackup"  placeholder="OnlineBackup" > <br> <br>
+
+    <input type="text" name="v11" id="DeviceProtection"  placeholder="DeviceProtection" > <br> <br>
+
+    <input type="text" name="v12" id="TechSupport"  placeholder="TechSupport" > <br> <br>
+
+    <input type="text" name="v13" id="StreamingTV"  placeholder="StreamingTV" > <br> <br>
+
+    <input type="text" name="v14" id="StreamingMovies"  placeholder="StreamingMovies" > <br> <br>
+
+    <input type="text" name="v15" id="Contract"  placeholder="Contract" > <br> <br>
+
+    <input type="text" name="v16" id="PaperlessBilling"  placeholder="PaperlessBilling" > <br> <br>
+
+    <input type="text" name="v17" id="PaymentMethod"  placeholder="PaymentMethod" > <br> <br>
+
+    <input type="text" name="v18" id="MonthlyCharges"  placeholder="MonthlyCharges" > <br> <br>
+
+    <input type="text" name="v19" id="TotalCharges"  placeholder="TotalCharges" > <br> <br>
+
+
+    <button type="submit">Make Prediction</button>
+
+
+
+</form>
+
+<h1>The Prediction is : {{sales}} </h1>
+
+</html>
