@@ -1,1 +1,27 @@
 
+# House Price Prediction Using Machine Learning
+
+Developed a machine learning-based web application that predicts house prices based on property features such as location, area, number of bedrooms, bathrooms, and other housing attributes. The project involved data preprocessing, exploratory data analysis (EDA), feature engineering, model training, and deployment through an interactive web interface.
+
+### Key Features
+
+* Performed data cleaning, preprocessing, and feature engineering on real estate datasets.
+* Conducted exploratory data analysis (EDA) to identify trends and factors affecting house prices.
+* Built and evaluated machine learning models for accurate price prediction.
+* Developed a user-friendly web application using Flask for real-time predictions.
+* Implemented model serialization and integrated the trained model into the web application.
+* Designed a responsive frontend using HTML and CSS.
+
+### Technologies Used
+
+* Python
+* Pandas, NumPy
+* Scikit-learn
+* Matplotlib, Seaborn
+* Flask
+* HTML, CSS
+* Machine Learning
+
+### Outcome
+
+Successfully created an end-to-end machine learning solution that enables users to estimate house prices instantly based on property details, demonstrating practical skills in data science, machine learning, and web application development.
